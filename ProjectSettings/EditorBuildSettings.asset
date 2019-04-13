@@ -8,10 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game.unity
     guid: f23e0b2c0cc493044ab1930a77e33488
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/NOGIT_Game.unity
+    guid: 66433b59b8fd2fa43b434993ed08edda
   m_configObjects: {}

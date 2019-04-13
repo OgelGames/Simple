@@ -30,7 +30,6 @@ public class MasterScript : MonoBehaviour
 	{
 		Reference.instance.spawner.StopSpawningEnemies();
 		increaseSpeed = false;
-		Time.timeScale = 1.0f;
 	}
 
 	private void RestartGame ()
@@ -48,11 +47,12 @@ public class MasterScript : MonoBehaviour
 	private async void IncreaseSpeed (float rate)
 	{
 		increaseSpeed = true;
-		float newTimeScale = 1f;
+		float newTimeScale = 1.0f;
 		while (increaseSpeed && Application.isPlaying) {
-			await Task.Delay(1000);
 			newTimeScale += rate;
 			Time.timeScale = newTimeScale;
+			await Task.Delay(1000);
 		}
+        Time.timeScale = 1.0f;
 	}
 }
