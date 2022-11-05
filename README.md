@@ -1,4 +1,4 @@
-# Simple - a game by OgelGames
+# Simple - by OgelGames
 
 
 **What's included:**
@@ -17,3 +17,5 @@
 4. Download and import the GameJolt API plugin from the Unity Asset Store.
 5. Add the GameJoltAPI prefab (located in Assets/Plugins/GameJolt/Prefabs) to the scene.
 6. Play the game!
+
+**License:** MIT
